@@ -29,8 +29,15 @@ export default function App() {
     _subscribe();
     return () => _unsubscribe();
   }, []);
-
   const [detected, setDetected] = useState(false);
+
+  useEffect(() => {
+    if (data.x > 3 || data.y > 3 || data.z > 3) {
+      setDetected(true);
+      console.log("Fall Detected!");
+    }
+  }, [data]);
+
   return (
     <View className="flex w-screen h-screen items-center justify-center bg-white">
       <View className="w-fill h-fill px-2  bg-red-200 rounded-md shadow-2xl">
