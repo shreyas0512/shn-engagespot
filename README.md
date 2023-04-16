@@ -2,7 +2,7 @@
 
 
 
-#Fall Detector App
+# Fall Detector App
 This React Native app is designed to help elderly individuals who may be at risk of falling. The app uses accelerometer in the user's mobile device to detect falls, and sends a notification to a designated contact or emergency services if a fall is detected. This can provide an added layer of safety and security for elderly individuals who may live alone or be at risk of falling. Currently the detection is very basic and has many issues but with implementation of machine learning algorithms, in the future this could be vastly accurate and provide great help to individuals. The app uses the device's accelerometer sensor to detect a sudden change in acceleration, which is characteristic of a fall. Once a fall is detected, the app sends a notification using Engagespot API, which can be configured to send notifications to a user's email and/or phone number.
 ## Team members
 1. Shreyas Santhosh - https://github.com/shreyas0512
