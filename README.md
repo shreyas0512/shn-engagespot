@@ -15,6 +15,7 @@ https://user-images.githubusercontent.com/76905421/232288079-31cb7edb-0c4d-49c5-
 ### Frontend
 React Native is used to develop the cross-platform application with expo. Expo-sensors package is used to access the accelerometer data from the phone. When the user adds an email, it is stored in asyncstorage and then later fetched and mail is sent to that email using the api created in backend with engagespot.When the accelerometer detects acceleration over a certain threshold value, it calls an API request causing the notification to caregiver.
 ### Backend
+Node is used to create an API that uses engagespot to send mail and add users based on their REST API documentation.
 
 ## Libraries used
 ### Frontend
