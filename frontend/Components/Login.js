@@ -26,7 +26,7 @@ const Login = (props) => {
       const data123 = await AsyncStorage.getItem("email");
       console.log("data stored", data123);
       props.setEmailready(true);
-      const response = await fetch("http://192.168.1.7:3000/adduser", {
+      const response = await fetch("http://localhost:3000/adduser", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
